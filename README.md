@@ -22,7 +22,7 @@ This is a public work log, not a tutorial.
 1. **Foundation refresh**: LLVM Kaleidoscope, C++ refresher, GPU MODE basics
 2. **GPU fundamentals**: CUDA, PMPP, naive and tiled matmul, NSight profiling
 3. **Triton entry**: Python-embedded GPU kernels, PTX inspection
-4. **MLIR proper**: IR dialects, lowering passes, the rare credential
+4. **MLIR proper**: IR dialects, lowering passes
 5. **First real contribution**: the centerpiece
 6. **Synthesize**: Flash Attention, NCCL collectives, CUDA Graphs, second push
 
@@ -54,6 +54,7 @@ The work draws on:
 - [Aalto Programming Parallel Computers](https://ppc.cs.aalto.fi/) — structured exercises
 - [Triton](https://triton-lang.org/) and [MLIR](https://mlir.llvm.org/) official docs and tutorials
 - *Systems Performance* (Brendan Gregg) — methodology reference
+- [AI Performance Engineering](https://github.com/cfregly/ai-performance-engineering) (Fregly) — companion repo, 200-item performance checklist, monthly meetup videos
 - [Convex Optimization](https://web.stanford.edu/~boyd/cvxbook/) (Boyd) — math reference
 
 ## Started
